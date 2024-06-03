@@ -1,0 +1,16 @@
+  public interface ListenerTokens {
+    void getTokens(String keyword, String tokens);
+    void end();
+    void error(Object object);
+  }
+  /**
+   * Creates a new scanner
+   *
+   * @param   in  the java.io.Reader to read input from.
+   */
+
+  private ListenerTokens listenerTokens;
+  public AnalisadorLexico(java.io.Reader in, ListenerTokens listenerTokens) {
+    this.zzReader = in;
+    this.listenerTokens = listenerTokens;
+  }
