@@ -7,7 +7,6 @@ package analisador;// DO NOT EDIT
 import java.io.IOException;
 import java.util.HashMap;
 import java_cup.runtime.Symbol;
-
 @SuppressWarnings("fallthrough")
 public class AnalisadorLexico {
 
@@ -279,8 +278,6 @@ public class AnalisadorLexico {
   /** Whether the user-EOF-code has already been executed. */
   @SuppressWarnings("unused")
   private boolean zzEOFDone;
-
-
 
 
       public interface ListenerTokens {

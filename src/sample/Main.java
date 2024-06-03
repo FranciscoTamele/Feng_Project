@@ -7,7 +7,15 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 
-// jflex src\analisador\analiser.flex
+/**
+ * Pode gerar o analisar usando o comando abaixo caso JFLEX não esteja configurando no variaveis de ambiente
+ * java -jar libs\jflex-full-1.9.1.jar src\analisador\analiser.flex
+ *
+ * Usa este comando caso JFLEX esteja configurando no ambiente
+ * jflex src\analisador\analiser.flex
+ */
+
+
 
 public class Main extends Application {
 
